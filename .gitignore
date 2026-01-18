@@ -1,0 +1,9 @@
+*.log
+
+build/
+
+!error.log
+
+doc/*.txt
+
+doc/**/*.pdf
