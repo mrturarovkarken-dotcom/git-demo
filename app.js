@@ -24,3 +24,5 @@ slow = cachingDecorator(slow);
 alert( slow(1) ); // slow(1) кешируем
 alert( "Again: " + slow(1) ); // возвращаем из кеша
 
+alert( slow(2) ); // slow(2) кешируем
+alert( "Again: " + slow(2) ); // возвращаем из кеша
