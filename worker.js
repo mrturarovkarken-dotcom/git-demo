@@ -27,5 +27,3 @@ function cachingDecorator(func) {
 alert( worker.slow(1) ); // оригинальный метод работает
 
 worker.slow = cachingDecorator(worker.slow); // теперь сделаем его кеширующим
-
-alert( worker.slow(2) ); // Ой! Ошибка: не удаётся прочитать свойство 'someMethod' из 'undefined'
